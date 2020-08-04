@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <meta name="description" content="An online study guide for the AP Physics 1 Exam on May 14, 2020.">
+        <meta name="author" content="Anika Bajpai">
+
+        <title>AP Physics 1 Review Guide</title>
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@crankmaster34">
+        <meta name="twitter:creator" content="@crankmaster34">
+
+        <!-- MathJax CDN - Placed at top due to requirement for math equations to display. -->
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+        <!-- Bootstrap - Latest compiled and minified CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap - Optional theme -->
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Custom style sheet -->
+        <link href="css/styles.css" rel="stylesheet">
+        
+
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="favicon.ico/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon.ico/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="favicon.ico/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="favicon.ico/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="favicon.ico/manifest.json">
+        <link rel="mask-icon" href="favicon.ico/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="favicon.ico/mstile-144x144.png">
+        <meta name="msapplication-config" content="favicon.ico/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+    </head>
+
+    <body>
+
+
+        <!-- Header -->
+        <header class="jumbotron">
+            <div class="container">
+                <h1>AP Physics 1 Review Guide</h1>
+                <p>An online study guide by Anika Bajpai.</p>
+            </div>
+        </header> <!-- /header -->
+
+        <!-- Main -->
+        <div class="container">
+            <div class="row">
+
+                <!-- Sidebar Navigation -->
+                <div class="col-md-3" id="leftCol">
+                    <h4>Jump to Section:</h4>
+                    <ul class="nav-stacked" id="sidebar">
+                        <li><a href="#intro">Overview</a>
+                        </li>
+                        <li><a href="#chapter2">Chapter 2: Kinematics in One Dimension</a>
+                            <ul class="nested">
+                                <li><a href="#referenceFrames">Reference Frames</a></li>
+                                <li><a href="#displacement">Displacement</a></li>
+                                <li><a href="#speedVsVelocity">Speed vs Velocity</a></li>
+                                <li><a href="#acceleration">Acceleration</a></li>
+                                <li><a href="#graphicalAnalysis">Graphical Analysis</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#chapter3">Chapter 3: Kinematics in Two Dimensions</a>
+                            <ul class="nested">
+                                <li><a href="#vectorMath">Math with Vectors</a></li>
+                                <li><a href="#projectileMotion">Projectile Motion</a></li>
+                                <li><a href="#relativeVelocity">Relative Velocity</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#chapter4">Chapter 4: Forces</a>
+                            <ul class="nested">
+                                <li><a href="#newtonsLaws">Newton's Laws of Motion</a></li>
+                                <li><a href="#massWeightAndNormal">Mass, Weight, and F<sub>N</sub></a></li>
+                                <li><a href="#freebodyDiagrams">Free-Body Diagrams</a></li>
+                                <li><a href="#friction">Friction</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#chapter5">Chapter 5: Gravitation</a>
+                            <ul class="nested">
+                                <li><a href="#uniformCircularMotion">Uniform Circular Motion</a></li>
+                                <li><a href="#universalGravitation">Universal Gravitation</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#chapter6">Chapter 6: Work &amp; Energy</a>
+                            <ul class="nested">
+                                <li><a href="#work">Work</a></li>
+                                <li><a href="#kineticVsPotential">Kinetic vs Potential Energy</a></li>
+                                <li><a href="#springs">Springs</a></li>
+                                <li><a href="#energyConservation">Conservation of Energy</a></li>
+                                <li><a href="#mechanicalEnergy">Mechanical Energy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- /sidebar -->
+
+                <!--Main Content -->
+                <div class="col-md-9">
+                    <h2 id="intro">Overview</h2>
+                    <img src="img/arsshsquare.gif" class="img-responsive pull-right" style="max-width: 230px;">
+                    <h3>About this Study Guide</h3>
+                    <p>Welcome to my AP Physics 1 Review! I created this website to review basic physics 1 content so that I'm not completely useless next year in physics 2. Not all the physics topics we covered over the year are on here, just the ones that I need a little extra review on. This guide is structured in 6 acts:</p>
+                    <ul>
+                        <li><a href="#intro">Overview</a></li>
+                        <li><a href="#chapter2">Chapter 2: Kinematics in One Dimension</a></li>
+                        <li><a href="#chapter3">Chapter 3: Kinematics in Two Dimensions</a></li>
+                        <li><a href="#chapter4">Chapter 4: Forces</a></li>
+                        <li><a href="#chapter5">Chapter 5: Gravitation</a></li>
+                        <li><a href="#chapter6">Chapter 6: Work &amp; Energy</a></li>
+                    </ul>
+                    <p></p>
+                    <p>A few random tidbits: For easy navigation, I've included some anchor links (remember those from Computer Science?) in the sidebar to the left as you scroll to easily jump back and forth between sections. Also, if you're the type of person who likes to see things on a piece of paper, I've programmed this website such that it will automatically come out in a print-friendly format simply by printing normally from your browser.</p>
+                    <p>Good luck on your studying escapades!</p>
+                    <h3></h3>
+                    <p></p>
+                  
+                    <p></p>
+                    </b></p>
+                    <h3></h3>
+                    <p></p>
+                    <h4></h4>
+                    <ul>
+
+                    </ul>
+                    <h4></h4>
+                    
+                    <hr>
+
+                    <h2 id="chapter2">Chapter 2: Kinematics in One Dimension</h2>
+                    <blockquote>
+                        <p>In this system of just me and you, where I've defined negative to refer to the downwards direction, my acceleration is currently &ndash;9.8 m/s for you.</p>
+                        <footer>A Valentine's Day card</footer>
+                    </blockquote>
+                    <p>Chapter 2 contains material covering kinematics material in a single dimension. You'll be working on number lines for the majority of this chapter.</p>
+                    <p>I'm assuming by this point you all know the standard kinematics equations for constant acceleration:</p>
+                    <div class="equation-block">$$v = v_0 + at$$</div>
+                    <div class="equation-block">$$x = x_0 + {v_0}t + {1 \over 2}at^2$$</div>
+                    <div class="equation-block">$$v^2 = v_0^2 + 2a{\Delta x}$$</div>
+                    <p>You'll be using these a lot.</p>
+
+                    <h3 id="referenceFrames">Reference Frames</h3>
+                    <img src="img/referenceFrames.png" class="img-responsive pull-right">
+                    <p>All of physics is measured relative to something else. The conceptual idea of reference frames is best explained by the image here: from your frame of reference on the ground, the boy is moving from left to right; from the boy's frame of reference, he is standing still.</p>
+                    <p>Before doing any measurements in physics, we must define our reference frame. For most problems, this means you must define:</p>
+                    <ul>
+                        <li>Your <em>x</em> and <em>y</em> axes</li>
+                        <li>The direction that positive (+) and negative (-) signs refer to</li>
+                    </ul>
+                    <p>This will become especially important when dealing with vectors.</p>
+
+                    <h3 id="displacement">Displacement</h3>
+                    <p>Displacement is defined as <b>the change in position of an object</b>. In other words, how far the object is from the starting point.</p>
+                    <p>Displacement is a <b>vector quantity</b>, so make sure to include both magnitude and direction in your answer.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A person walks 70 meters west and 30 meters east. What is their displacement?</p>
+                        </div>
+                    </div>
+
+                    <h3 id="speedVsVelocity">Speed vs Velocity</h3>
+                    <p>Speed is the measure of how fast an object is moving. The <b>average speed</b> of an object is defined as:</p>
+                    <div class="equation-block">$$average\ speed = {total\ distance\ travelled \over time\ elapsed}$$</div>
+                    <p>On the other hand, velocity is the measure of how fast <em>and in what direction</em> an object is moving (it's a <em>vector quantity!</em>). The numerical value of "how fast" is also known as the <b>magnitude</b>. <b>Average velocity</b> is defined as <em>the displacement of an object over the time elapsed:</em></p>
+                    <div class="equation-block">$$\bar v = {x_2 - x_1 \over t_2 - t_1} = {\Delta x \over \Delta t}$$</div>
+                    <p>It's important to note that average speed uses <em>total distance</em> in its measurement as opposed to velocity, which uses <em>displacement</em> in its calculation. As a result, average speed and average velocity can be different for the same system.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>Jack Ellwood runs 2 complete laps around a 400m circular track in 2.5 minutes. Determine the following:</p>
+                            <ol type="a">
+                                <li>What was his <em>average speed</em>?</li>
+                                <li>What was his <em>average velocity</em>?</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <h3 id="acceleration">Acceleration</h3>
+                    <p>Acceleration specifies how rapidly the velocity of an object is changing. <b>Average acceleration</b> is defined as <em>the change in velocity divided by the time taken to make this change:</em></p>
+                    <div class="equation-block">$$\bar a = {v_2 - v_1 \over t_2 - t_1} = {\Delta v \over \Delta t}$$</div>
+                    <p>Acceleration is a <b>vector quantity</b>. Make sure to include the proper signage based on your chosen coordinate system.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A car accelerates along a straight road from rest to 75 km/h in 5.0 seconds. What is the magnitude of the average acceleration?</p>
+                        </div>
+                    </div>
+                    <p>An important constant to memorize is the <b>acceleration due to gravity on Earth</b>, defined by \(g = 9.80\ m/s^2\).</p>
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h3 class="panel-title">Solving example:</h3></div>
+                        <div class="panel-body">
+                            <p class="problem">A ball is thrown <em>downward</em> with an inital velocity of 3.00 m/s from a tower 70.0 meters high. Starting from the moment when the ball leaves the thrower's hand, how much time will have elapsed before the ball hits the ground?</p>
+                            <hr>
+                            <p>We'll choose the \(y\) direction as negative downward, with the point at which the ball leaves the thrower's hand as \(y_0 = 0\).</p>
+                            <p>We know that the vertical acceleration of the ball is \(a_y = -g = -9.8\). We also know that \(y_0 = 0\) and \(y = -70.0\ \mathrm{m}\), and we know that the initial vertical velocity is \(v_{0} = 3.00\ \mathrm{m/s}\).</p>
+                            <p>We can now start solving for \(t\):</p>
+                            <div class="equation-block">\begin{align} y & = y_0 + v_{y0}t + {1 \over 2}a_yt^2 \\ -70.0 & = 0 + 3.00t + {1 \over 2}(-9.8)t^2 \\ 0 & = 70.0 + 3.00t + {1 \over 2}(-9.8)t^2 \\ & = {1 \over 2}(-9.8)t^2 + 3.00t + 70.0 \end{align}</div>
+                            <p>We can now use the quadratic equation to solve for \(t\).</p>
+                            <div class="equation-block">\begin{align} \require{cancel} x & = {{-b \pm \sqrt {b^2 - 4ac}} \over 2a} \\ & = {{-(3.00) \pm \sqrt {(3.00)^2 - 4({1 \over 2})(-9.8)(70.0)}} \over 2({1 \over 2})(-9.8)} \\ & \approx \cancel{-3.485} \mathrm{\ or\ }4.098\ \mathrm{s} \end{align}</div>
+                            <p>Since a negative time is not possible, we know that the answer must be <b>4.098 seconds.</b></p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A ball is thrown <em>upward</em> into the air with an initial velocity of 15.0 m/s. Determine the following:</p>
+                            <ol type="a">
+                                <li>How high does the ball go?</li>
+                                <li>How long is the ball in flight before it comes back to the thrower's hand?</li>
+                                <li>What is the velocity of the ball the moment before it is caught by the thrower?</li>
+                                <li>At what time \(t\) does the ball pass a point 8.00m above the person's hand?</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <h3 id="graphicalAnalysis">Graphical Analysis</h3>
+                    <p>It's hard to draw graphs for this online, so you may wish to refer back to Lab 1 and Lab 2 for some good graphical drawing questions. Other than that, there's a few important points to note here:</p>
+                    <ul>
+                        <li>The slope at a specific time on a position graph is equal to the value at the specific time on the velocity graph</li>
+                        <li>The slope at a specific time on a velocity graph is equal to the value at the specific time on the acceleration graph</li>
+                        <li>The area under the velocity graph is equal to the displacement</li>
+                    </ul>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A space probe accelerates uniformly from 50 m/s at \(t = 0\) to 150 m/s at \(t = 10\ \mathrm{s}\). How far did it move between \(t = 2.0\ \mathrm{s}\) and \(t = 6.0\ \mathrm{s}\)?</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h2 id="chapter3">Chapter 3: Kinematics in Two Dimensions</h2>
+                    <p>Chapter 3, quite unsuprisingly, is all about kinematics in two dimensions. Vectors become increasingly important here, as we'll see in a moment.</p>
+
+                    <h3 id="vectorMath">Math with Vectors</h3>
+                    <img src="img/vectorMath.png" class="img-responsive pull-right">
+                    <p>Remember that vectors have both <em>magnitude</em> and <em>direction</em>. As such, math with vectors needs to be handled in a special way.</p>
+                    <p>We can add two vectors together by separating them into their <b>horizontal and vertical components</b> and adding those together separately. Afterwards, we can use the Pythagorean Theorem to determine the magnitude of the resultant vector and trignometry to determine the angular direction.</p>
+                    <p>Similarly, we can subtract vectors in the same way.</p>
+                    <p>We can also muliply a vector by a scalar. The direction will remain the same but the magnitude will equal the magnitude of the inital vector multiplied by the scalar. Make sure to remember to include direction in your answer.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>An airplane trip involves three legs, with two stopovers for refueling. The first leg is due east for 620 km; the second leg is 45&deg; south of east for 440 km; and the third leg is 50&deg; south of west for 550 km. What is the plane's total displacement?</p>
+                        </div>
+                    </div>
+
+
+                    <h3 id="projectileMotion">Projectile Motion</h3>
+                    <p>The projectile motion of an object can be understood by <em>analyzing the horizontal and vertical components of an object separately.</em></p>
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h3 class="panel-title">Solving example:</h3></div>
+                        <div class="panel-body">
+                            <p class="problem">A movie stunt driver on a motorcycle speeds horizontally off a 50.0 meter cliff. How fast must the motorcycle leave the cliff to land 90.0 meters from the base of the cliff?</p>
+                            <hr>
+                            <p>We'll choose the \(y\) direction as positive upward, with the top of the cliff as \(y_0 = 0\). The \(x\) direction is horizontal with \(x_0 = 0\) at the point where the motorcycle leaves the cliff.</p>
+                            <p>We know that the vertical acceleration of the motorcycle is \(a_y = -g = -9.8\) and that the horizontal acceleration of the motorcycle is \(a_x = 0\). We also know that \(y_0 = 0\) and \(y = -50.0\ \mathrm{m}\), and that \(x_0 = 0\) and \(x = 90.0\ \mathrm{m}\). Finally, we know that the initial vertical velocity is \(v_{y0} = 0\).</p>
+                            <p>We can now start by setting up our equation for solving \(t\):</p>
+                            <div class="equation-block">\begin{align} y & = y_0 + v_{y0}t + {1 \over 2}a_yt^2 \\ & = 0 + 0 + {1 \over 2}(-g)t^2 \\ & = {1 \over 2}(-g)t^2 \end{align}</div>
+                            <p>We can then solve for \(t\) and set \(y = 50.0\ \mathrm{m}\).</p>
+                            <div class="equation-block">\begin{align} t & = \sqrt{2y \over -g} \\ & = \sqrt{2(-50.0\ \mathrm{m}) \over -9.80\ \mathrm{m/s^2}} \\ & \approx 3.19\ \mathrm{s} \end{align}</div>
+                            <p>Now, we can calculate for the initial velocity, \(v_{x0}\).</p>
+                            <div class="equation-block">\begin{align} x & = x_0 + v_{x0}t + {1 \over 2}a_xt^2 \\ & = 0 + v_{x0}t + 0 \\ & = v_{x0}t \\ v_{x0} & = {x \over t} = {90.0\ \mathrm{m} \over 3.19\ \mathrm{s}} \approx 28.2\ \mathrm{m/s} \end{align}</div>
+                            <p>The motorcycle must leave the cliff at a speed of <b>28.2 m/s</b>.</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A football is kicked at an angle \({\theta}_0 = 37.0°\) with a velocity of 20.0 m/s. Determine the following:</p>
+                            <ol type="a">
+                                <li>The maximum height of the football</li>
+                                <li>The time of travel before the football hits the ground</li>
+                                <li>How far away it hits the ground</li>
+                                <li>The velocity at the maximum height</li>
+                                <li>The acceleration at the maximum height</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <h3 id="relativeVelocity">Relative Velocity</h3>
+                    <img src="img/relativeVelocity.jpg" class="img-responsive pull-right">
+                    <p>Relative velocity is where the concept of reference frames from Chapter 2 becomes especially important. At the end of the day, however, problems dealing with relative velocity essentially are more addition of vectors.</p>
+                    <p>The picture here best demonstrates this concept. A boat trying to head straight across a flowing river will actually move diagonally <em>relative to the shore</em> as shown. The boat's velocity (solid arrow) relative to the shore is the sum of its forward velocity relative to the river plus the horizontal velocity of the river relative to the shore.</p>
+                    <p>One of the more common problem types for relative velocity are moving boat problems. The main thing to remember here is that in order to travel directly across a river, a boat must point itself at an upstream angle in order to counteract the movement of the flowing river. If the boat positions itself pointing straight across the river, it will end up in a position more downstream due to the current of the river.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A boat with a speed of \(v_{\mathrm{boat}} = 1.85\ \mathrm{m/s}\) is travelling in a river with a current of speed \(v_{\mathrm{current}} = 1.20\ \mathrm{m/s}\). If the boat wants to travel directly across the river, at what upstream angle must the boat head?</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <h2 id="chapter4">Chapter 4: Forces</h2>
+                    <blockquote>
+                        <p>Two kittens are on a roof. Which one falls off first?<br>The one with the lowest mu.</p>
+                        <footer><a href="http://www.buzzfeed.com/kellyoakes/17-jokes-only-physics-geeks-will-understand#.pfpjEKQwp0">BuzzFeed</a></footer>
+                    </blockquote>
+                    <p>Cat physics jokes aside, Chapter 4 is all about the relationship between force and motion.</p>
+                    <p>As we all should know by now, a <b>force</b> is any type of push or pull on a object. They are vector quantities, so they have both magnitude and direction. The important (and slightly unintunitive) thing to remember about forces is that <em>an object will continue to remain at rest</em> or <em>move at constant speed if no force is being applied to it</em>. In other words, an object only will slow down or speed up if a force is applied on it.</p>
+
+                    <h3 id="newtonsLaws">Newton's Laws of Motion</h3>
+                    <p>Newton's three laws of motion describe the behavior of objects when forces are applied to them. For the test, expect some of the multiple choice questions in Part 1 to use concepts from Newton's First and Third Law of Motion, and to use Newton's Second Law of Motion in Part 2.</p>
+                    <h4>First Law of Motion</h4>
+                    <blockquote>Every object continues in its state of rest, or of uniform velocity in a straight line, as long as no net force acts on it.</blockquote>
+                    <p>As we all should know by now, a <b>force</b> is any type of push or pull on a object. Newton's first law of motion describes an important (and slightly unintunitive) thing to remember about forces is that <em>an object will continue to remain at rest</em> or <em>move at constant speed if no force is being applied to it</em>. In other words, an object only will slow down or speed up if a force is applied on it.</p>
+                    <p>This tendency of an object to maintain its state of rest or uniform motion is called <b>inertia</b>.</p>
+                    <h4>Second Law of Motion</h4>
+                    <blockquote>The acceleration of an object is directly proportional to the net force acting on it, and is inversely proportional to its mass. The direction of the acceleration is in the direction of the net force action on the object.</blockquote>
+                    <p>Newton's second law of motion is best known in its equation form:</p>
+                    <div class="equation-block">$$\sum\vec{F} = m\vec{a}$$</div>
+                    <p>Remember before solving to convert your mass units to <b>kilograms</b> to stay in line with SI units.</p>
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h3 class="panel-title">Solving example:</h3></div>
+                        <div class="panel-body">
+                            <p class="problem">What average net force is required to bring a 1500-kg car to rest from a speed of 28 m/s within a distance of 55 meters?</p>
+                            <hr>
+                            <p>We'll define the car's motion as along the positive x-axis. We know that that the initial velocity \(v_0 = 28\ \mathrm{m/s}\), the final velocity \(v = 0\), and the distance \(\Delta{x} = 55\ \mathrm{m}\).</p>
+                            <p>In order to determine the force, we still need to find \(a\), so let's set up a kinematic equation:</p>
+                            <div class="equation-block">\begin{align} v^2 & = v_0^2 + 2a\Delta{x} \\ a & = {v^2 - v_0^2 \over 2\Delta{x}} = {0 - (28\ \mathrm{m/s})^2 \over 2(55\ \mathrm{m})} \approx -7.1\ \mathrm{m/s^2} \end{align}</div>
+                            <p>Now, we can plug our values into \(F = ma\) and solve for \(F\):</p>
+                            <div class="equation-block">$$F = ma = (1500\ \mathrm{kg})(-7.1\ \mathrm{m/s^2}) \approx -1.1 \times 10^4\ \mathrm{N}$$</div>
+                            <p>The force required to stop the car is \(-1.1 \times 10^4\ \mathrm{N}\). Note that the force must be exerted in the direction opposite to the initial velocity, which the negative symbol signifies.</p>
+                        </div>
+                    </div>
+                    <h4>Third Law of Motion</h4>
+                    <blockquote>Whenever one object exerts a force on a second object, the second exerts an equal force in the opposite direction on the first.</blockquote>
+                    <p>Newton's third law of motion is more commonly known as "to every action there is an equal and opposite reaction". The important thing to note here is that the "action" force and the "reaction" force are acting on <b>different objects.</b></p>
+                    <p>A good example of Newton's third law in action are cars. The tires of a moving car push backward against the ground because of friction, and the ground pushes on the tires in the opposite direction, accelerating the car forward.</p>
+
+                    <h3 id="massWeightAndNormal">Mass, Weight, and Normal Force</h3>
+                    <p><b>Mass</b> is best defined as the <em>measure of the inertia</em> of an object. The more mass an object has, the greater the force needed to give it a particular acceleration.</p>
+                    <p>The SI unit for mass is the <b>kilogram</b> (kg).</p>
+                    <p><b>Weight</b>, on the other hand, is defined as the <em>magnitude of the gravitational force</em> on an object. The gravitational force on an object can be written as \(\vec{F}_G = m\vec{g}\).</p>
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h3 class="panel-title">Solving example:</h3></div>
+                        <div class="panel-body">
+                            <p class="problem">A woman weighing 65 kilograms descends in a elevator that briefly accelerates at \(0.20g\) downard when leaving a floor. She stands on a scale that reads in kilograms.</p>
+                            <ol type="a" class="problem">
+                                <li>During this acceleration, what is the woman's weight and what does the scale read?</li>
+                                <li>What does the scale read when it descends at a constant speed of 2.0 m/s?</li>
+                            </ol>
+                            <hr>
+                            <p><b>Part A:</b> From Newton's Second Law of Motion, we know:</p>
+                            <div class="equation-block">\begin{align} \sum{F} & = ma \\ mg - F_\mathrm{N} & = m(0.20g) \end{align}</div>
+                            <p>We can now solve for \(F_\mathrm{N}\):</p>
+                            <div class="equation-block">$$mg - F_\mathrm{N} = mg - 0.20mg = 0.80mg $$</div>
+                            <p>The normal force \(\vec{F}_\mathrm{N}\) is the force the scale exerts on the person. While her weight (the force of gravity on her) will always be \(mg = (65\ \mathrm{kg})(9.8\ \mathrm{m/s^2}) = 640\ \mathrm{N}\), the scale only needs to exert a force of \(0.80mg\), so it will give a reading of \(0.80m = \mathbf{52\ kg}.\)</p>
+                            <p><b>Part B:</b> Since there is no acceleration, by Newton's Second Law of Motion, we know that \(mg - F_\mathrm{N} = 0\), so \(mg = F_\mathrm{N}\). The scale reads her true mass of <b>65 kilograms</b>.</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A student whose weight is 600 <em>newtons</em> is standing in an elevator. If the elevator rises with an acceleration of 9.8 m/s<sup>2</sup>, what is the force the elevator exerts on the student?</p>
+                        </div>
+                    </div>
+                    <p>The final concept to remember in this section is <b>normal force</b>, written as \(\vec{F}_N\), which is defined as a contact force that acts <em>perpendicular</em> to the surface of contact. An example of a normal force is the force exerted by a table on a box placed on top of it. Using Newton's Third Law of Motion, we know that \(\vec{F}_N = \vec{F}_G\) of the box.</p>
+                    <p>In some cases, however, the normal force isn't equal to \(\vec{F}_G\)&mdash;for the example above, this may be when the box in question is placed on an incline, or when an external force is pushing the box downwards.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A friend has given you a special gift, a box of mass 10.0 kilograms with a mystery surprise inside. (I'm not kidding, that's actually the wording for one of the problems in the textbook.) The box is resting on a frictionless, surface.</p>
+                            <ol type="a">
+                                <li>Determine the weight of the box and the normal force exerted on it by the table.</li>
+                                <li>Your friend pushes down on the box with a force of 40.0 newtons. Determine the normal force exerted on the box by the table.</li>
+                                <li>Now, your friend pulls upward on the box with a force of 40.0 newtons. Determine the normal force exerted on the box by the table.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <h3 id="freebodyDiagrams">Free-Body Diagrams</h3>
+                    <p>When solving problems involving Newton's laws and force, you should draw a <b>free-body diagram</b> that shows all of the forces acting <em>on</em> each object involved. You all should know how to draw one by now, so there's no need to include an example here, but remember: <em>do not to include forces that the chosen object <b>exerts on other objects</b>; only forces that are exerted on the chosen object.</em></p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <img src="img/freebodyDiagramProblem.png" class="img-responsive pull-right">
+                            <p>A hockey puck is sliding at constant velocity across a flat horizontal ice surface.</p>
+                            <p>If the surface is assumed to be frictionless, which one of the free-body diagrams in the picture is the correct free-body diagram for this puck? What would the answer be if the puck slowed down?</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A deer box weighing 10.0 kilograms is placed on a flat, frictionless surface. A cord is attached to the box, and Ankeith pulls the cord, moving the box across the table. The magnitude of the force exerted by the pull is \(F_P = 40.0\ \mathrm{N}\), and it is exerted at a 30.0&deg; angle as shown. Determine the following:</p>
+                            <ol type="a">
+                                <li>The acceleration of the box</li>
+                                <li>The magnitude of the upward force \(F_N\) exerted by the table on the box</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <p>Speaking of rope problems, another concept you'll need to remember is <b>tension</b>, which is the force, \(F_T\), that a cord exerts on an object.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>Two boxes are connected by a lightweight cord and are resting on a frictionless table. The boxes have masses of 12.0 kilograms and 10.0 kilograms. A horizontal force, \(F_P\), of 40.0 N is applied to the 10.0 kilogram box. Determine the following:</p>
+                            <ol type="a">
+                                <li>The acceleration of the box</li>
+                                <li>The tension in the cord connecting the boxes</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <h3 id="friction">Friction</h3>
+                    <p>There are two types of friction: <b>kinetic friction</b> and <b>static friction</b>.</p>
+                    <h4>Kinetic Friction</h4>
+                    <p>
+                        Kinetic friction occurs when two objects slide against one another. It is proportional to the normal force exerted by the object:
+                    </p>
+                    <div class="equation-block">$$F_{f} = {\mu}_k F_N$$</div>
+                    <p>Here, \(\mathbf{{\mu}_k}\) refers to the <em>coefficient of kinetic friction</em>, which can only be determined experimentally. As a result, many of the problems you will encounter will either provide the value of \(\mu\) for you or have you solve directly for \(\mu\).</p>
+                    <h4>Static Friction</h4>
+                    <p>Static friction refers to a force parallel to two surfaces in contact with each other when the two objects are not sliding. The equation used is similar to kinetic friction, albeit with a few changes:</p>
+                    <div class="equation-block">$$F_{f} \le {\mu}_s F_N$$</div>
+                    <p>Here, \(\mathbf{{\mu}_s}\) refers to the <em>coefficient of static friction</em> (not to be confused with \(\mathbf{{\mu}_k}\)). We use a \(\le\) sign here as the force of static friction can vary from zero to the maximum value given by \({\mu}_s F_N\).</p>
+                    <p>This concept of changing static friction is best demonstrated by pushing on a heavy table. When you're not pushing on the table, the floor is not exerting any horizontal force on the table. However, if you begin to push horizontally on the table, and the table doesn't move, the floor has begun to exert the force of static friction against the table. Incresaing the force of pushing will also increase the force of static friction until it reaches its upper bound (given by the above equation), at which point the table will begin to move.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A 10 kilogram box rests on a horizontal floor. The coefficient of static friction is \({\mu}_s = 0.40\) and the coefficient of kinetic friction is \({\mu}_k = 0.30\). Determine the force of the friction, \(F_{fr}\), acting on the box if a horizontal external applied force \(F_A\) is exerted on it for the following magnitudes:</p>
+                            <ol type="a">
+                                <li>0</li>
+                                <li>10 N</li>
+                                <li>20 N</li>
+                                <li>38 N</li>
+                                <li>40 N</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h3 class="panel-title">Solving example:</h3></div>
+                        <div class="panel-body">
+                            <img src="img/pulleyProblem1.png" class="img-responsive pull-left" style="max-width: 200px;">
+                            <p class="problem">Two boxes, \(A\) (5.0 kilograms) and \(B\) (2.0 kilograms), shown in the figure here, are connected by a cord running over a pulley. Box \(A\) is placed on a flat, level table and box \(B\) is left hanging off the side of the table. The coefficient of kinetic friction between box \(A\) and the table is \(0.20\). Ignoring the mass of the cord and the pulley and any friction in the pulley, what is the acceleration \(a\) of the system?</p>
+                            <hr>
+                            <img src="img/pulleyProblem1FreebodyDiagrams.png" class="img-responsive pull-right" style="max-width: 200px;">
+                            <p>To solve this problem, we'll draw a free-body diagram for each of the boxes, as shown in the  second figure. We also know that the horizontal accleration of box \(A\) must be equal to the vertical accleration of box \(B\). More on that later.</p>
+                            <p>We know that box \(A\) doesn't move vertically, so Newton's second law tells us the normal force is equal to the weight:</p>
+                            <div class="equation-block">$$F_{\mathrm{N}} = m_{\mathrm{A}}g = (5.0\ \mathrm{kg})(9.8\ \mathrm{m/s^2}) = 49\ \mathrm{N}$$</div>
+                            <p>In the horizontal direction, there are two forces on box \(A\): \(F_{\mathrm{T}}\), the tension in the cord (which we don't know yet), and the force of friction, \(F_{\mathrm{fr}}\). We'll start by solving for \(F_{\mathrm{fr}}\):</p>
+                            <div class="equation-block">$$F_{\mathrm{fr}} = \mu_{\mathrm{k}}F_{\mathrm{N}} = (0.20)(49\ \mathrm{N}) = 9.8\ \mathrm{N}$$</div>
+                            <p>We want to solve for the horizontal acceleration of box A, so let's set up a force equation that will let us do that:</p>
+                            <div class="equation-block">$$\sum F_{\mathrm{Ax}} = F_{\mathrm{T}} - F_{\mathrm{fr}} = m_{\mathrm{A}}a$$</div>
+                            <p>Now, let's consider box B. Let's solve for \(m_{\mathrm{B}}g\):</p>
+                            <div class="equation-block">$$m_{\mathrm{B}}g = (2.0\ \mathrm{kg})(9.8\ \mathrm{m/s^2}) = 19.6\ \mathrm{N}$$</div>
+                            <p>Since we want to solve for the vertical accleration of box \(B\), let's setup our force equation:</p>
+                            <div class="equation-block">$$\sum F_{\mathrm{Bx}} = m_{\mathrm{B}}g - F_{\mathrm{T}} = m_{\mathrm{B}}a$$</div>
+                            <p>Using our box \(A\) equation from earlier, we can solve for \(F_{\mathrm{T}}\) and substitute into our box \(B\) equation:</p>
+                            <div class="equation-block">$$F_{\mathrm{T}} = m_{\mathrm{A}}a + F_{\mathrm{fr}}$$</div>
+                            <div class="equation-block">$$m_{\mathrm{B}}g - m_{\mathrm{A}}a - F_{\mathrm{fr}} = m_{\mathrm{B}}a$$</div>
+                            <p>We can now solve for \(a\) and plug in our values:</p>
+                            <div class="equation-block">\begin{align} m_{\mathrm{B}}g - m_{\mathrm{A}}a - F_{\mathrm{fr}} & = m_{\mathrm{B}}a \\ m_{\mathrm{B}}a + m_{\mathrm{A}}a & = m_{\mathrm{B}}g - F_{\mathrm{fr}} \\ a & = {m_{\mathrm{B}}g - F_{\mathrm{fr}} \over m_{\mathrm{B}} + m_{\mathrm{A}}} \\ a & = {19.6\ \mathrm{N} - 9.8\ \mathrm{N} \over 5.0\ \mathrm{kg} + 2.0\ \mathrm{kg}} \approx 1.4\ \mathrm{m/s^2} \end{align}</div>
+                            <p>The acceleration of the two boxes is <b>1.4 m/s<sup>2</sup></b>, with box \(A\) accelerating towards the right and box \(B\) acclerating towards the ground.</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <img src="img/pulleyProblem2.png" class="img-responsive pull-right" style="max-width: 200px;">
+                            <p>Two boxes, \(A\) and \(B\), shown in the figure here, are connected by a cord running over a pulley. Box \(A\) weighs 100 kilograms and placed on a ramp inclined at 30&deg;. The coefficient of static friction between box \(A\) and the ramp is 0.30. Determine the minimum weight of box \(B\) require to prevent box \(A\) from sliding down on the ramp.</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <h2 id="chapter5">Chapter 5: Gravitation</h2>
+                    <p>Chapter 5 is all about circular motion and gravitation, and then doing the terrible thing of combining both of them into satellite problems to make people sad.</p>
+
+                    <h3 id="uniformCircularMotion">Uniform Circular Motion</h3>
+                    <h4>The Basics</h4>
+                    <img src="img/uniformCircularMotion.png" class="img-responsive pull-right" style="max-width: 200px;">
+                    <p>An object that moves in a circle at constant speed \(v\) is said to experience <b>uniform circular motion</b>. The <em>magnitude</em> of the velocity remains constant throughout the object's motion, but the <em>direction</em> of the velocity is constantly changing.</p>
+                    <p>Because acceleration is defined as a change of velocity, an object undergoing uniform circular motion is <em>constantly changing velocity</em>.</p>
+                    <p>We can calculate the <b>acceleration</b> of an object undergoing uniform circular motion as follows:</p>
+                    <div class="equation-block">$$a_{\mathrm{R}} = {v^2 \over r}$$</div>
+                    <p>The accleration vector always points towards the center of the circle.</p>
+                    <p>We can also create an equation to determine the <b>velocity</b> of an object undergoing uniform circular motion:</p>
+                    <div class="equation-block">$$v = {2\pi r \over T}$$</div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>Assume the Moon has a uniform circular orbit around the Earth of radius 384,000 kilometers with a period \(T\) of 27.3 days. Determine the acceleration of the Moon toward the Earth.</p>
+                        </div>
+                    </div>
+                    <h4>Problems Including Force</h4>
+                    <p>You may encounter problems that deal with force and uniform circular motion together. For example, an object moving in a circle, such as a ball on the end of a string, must have a force applied to it to keep it moving in that circle. The magnitude of this force can be calculated using Newton's second law and the uniform circular motion accleration above:</p>
+                    <div class="equation-block">$$\sum{F_\mathrm{R}} = ma_\mathrm{R} = m{v^2 \over r}$$</div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>Calculate the force a person must exert on a string attached to a 0.150 kilogram ball to make the ball revolve in a horizontal circule of radius 0.600 meters. The ball makes 2.00 revolutions per second.</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A 0.150 kilogram ball on the end of a 1.10-meter-long cord is swing in a <em>vertical</em> circle. Determine the following:</p>
+                            <ol type="a">
+                                <li>The minimum speed the ball must have at the top of its arc so it continues moving in a circle</li>
+                                <li>The tension in the cord at the bottom of the arc, assuming the ball is moving at twice the speed of Part A</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- <h4>Banked and Unbanked Curve Problems</h4>
+                    <p>When an automobile rounds a curve, it undergoes circular motion. In order to turn, the force of friction pushes on the tires of the car which allows the car to move in the direction of the curve.</p>
+                    <p>If the wheels and tires of the car are rolling normally without slipping or sliding, the bottom of the tire is always "at rest" against the road, so the friction force involved is <b>static friction</b>. However, if the static friction force is not great enough, the car will skid out of the circular path.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A 1000 kilogram car rounds a curve on a flat road of radius 50 meters at a speed of 50 km/h. Determine if the car will skid or not under the following conditions:</p>
+                            <ol type="a">
+                                <li>The pavement is dry and the coefficient of static friction is \(\mu_s = 0.60\)</li>
+                                <li>The pavement is icy and the coefficient of static friction is \(\mu_s = 0.25\)</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <p>The banking of curves can reduce the chance of skidding.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <img src="img/bankedCurveProblem.png" class="img-responsive pull-right" style="max-width: 200px;">
+                            <p>For a car travelling with speed \(v\) around a curve of radius \(r\), determine a formula for the angle at which a road should be banked so that no friction is required to keep the car in its circular motion. Refer to the free-body diagram attached.</p>
+                            <p>What is this angle for an expressway off-ramp curve of radius 50 meters at a speed of 50 km/h?</p>
+                        </div>
+                    </div> -->
+
+                    <h3 id="universalGravitation">Universal Gravitation</h3>
+                    <h4>The Basics</h4>
+                    <p>Newton's Law of Universal Gravitation states that, essentially, everything attracts everything else. The magnitude of the gravitational force between two objects of masses \(m_1\) and \(m_2\) can be written as:</p>
+                    <div class="equation-block">$$F = G{m_1m_2 \over r^2}$$</div>
+                    <p>\(G\) refers to the universal gravitation constant:</p>
+                    <div class="equation-block">$$G = 6.67 \times 10^{-11}\ \mathrm{N \cdot m^2/kg^2}$$</div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <img src="img/universalGravitationProblem1.jpg" class="img-responsive pull-right" style="max-height: 180px;">
+                            <p>Find the net force on the Moon (\(m_M = 7.35 \times 10^{22}\ \mathrm{kg}\)) due to the gravitational attraction of both the Earth (\(m_E = 5.98 \times 10^{24}\ \mathrm{kg}\)) and the Sun (\(m_S = 1.99 \times 10^{30}\ \mathrm{kg}\)), assuming they are at right angles to each other.</p>
+                        </div>
+                    </div>
+                    <h4>Satellites</h4>
+                    <p>Artifical satellies ciriculing the Earth are put into orbit by accelerating them to a sufficiently high tangential speed. If the speed is too high, they will escape orbit and fly off into space. If the speed is too low, they will fall back to Earth.</p>
+                    <p>Note that satellites are <b>in constant freefall</b> to the Earth, which is why we can use the concepts of uniform circular motion and universal gravitation together to describe their motion.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A <em>geosynchronous</em> satellite is one that has a period of one day. Knowing that the mass of the Earth is \(m_E = 5.98 \times 10^{24}\ \mathrm{kg}\), determine the following:</p>
+                            <ol type="a">
+                                <li>The height above the Earth's surface such a satellite must orbit</li>
+                                <li>The necessary speed of the satellite to stay in orbit</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <h2 id="chapter6">Chapter 6: Work &amp; Energy</h2>
+                    <p>Chapter 6 explores the concepts of work and energy, which further describe forces. They are <b>scalar quantities</b>, which makes them, quite thankfully, easier to work with than vectors.</p>
+
+                    <h3 id="work">Work</h3>
+                    <p>The <b>work</b> done on an object by a <b>constant force</b> can be defined via the following equation:</p>
+                    <div class="equation-block">$$W = Fd\cos{\theta}$$</div>
+                    <p>where \(F\) is the magnitude of the constant force, \(d\) is the magnitude of the displacement of the object, and \(\theta\) is the angle between the directions of the force and the displacement. In simpler terms, \(F\cos{\theta}\) refers to the magnitude of the force parallel to \(d\).</p>
+                    <p>Work is measured in <b>joules</b> (J).</p>
+                    <p>Remember that a force can be exerted on an object yet do no work <em>if there is no displacement</em>.</p>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A person pulls a 50 kilogram create 40 meters along a horizontal floor by a constant force \(F_\mathrm{P} = 100\ \mathrm{N}\), which acts at a 37&deg; angle above the horizontal. The floor exerts a friction force on the box of \(F_\mathrm{fr} = 50\ \mathrm{N}\). Determine the following:</p>
+                            <ol type="a">
+                                <li>The work done by each force acting on the crate</li>
+                                <li>The net work done on the crate</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <p>A potential question may be determining the work done by a <b>varying force as described by a graph</b>. The area under the curve is equal to the work done.</p>
+
+                    <h3 id="kineticVsPotential">Kinetic vs Potential Energy</h3>
+                    <p>In its simplest terms, energy is defined as "the ability to do work". There are two types of energy: kinetic and potential.</p>
+                    <h4>Kinetic Energy</h4>
+                    <p><b>Kinetic energy</b> is the energy associated with an object in motion. It can be calculated via the following equation:</p>
+                    <div class="equation-block">$$\mathrm{KE} = {1 \over 2}mv^2$$</div>
+                    <p>The work done by a force is equal to the change in kinetic energy:</p>
+                    <div class="equation-block">\begin{align} W_\mathrm{net} & = \mathrm{KE}_2 - \mathrm{KE}_1 \\ W_\mathrm{net} & = {1 \over 2}mv_2^2 - {1 \over 2}mv_1^2 \end{align}</div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>How much net work is required to accelerate a 1000 kilogram car from 20 m/s to 30 m/s?</p>
+                        </div>
+                    </div>
+                    <h4>Potential Energy</h4>
+                    <p><b>Potential energy</b> is the energy associated with forces that depend on the position of an object relative to its surroundings. For the purposes of this test, you need to be familiar with two types of potential energy: gravitational potential energy, discussed below, and elastic potential energy, which will be discussed in the Springs section.</p>
+                    <p><b>Gravitational potential energy</b> can be calculated with the following equation:</p>
+                    <div class="equation-block">$$\mathrm{PE}_\mathrm{grav} = mgh$$</div>
+                    <h3 id="springs">Springs</h3>
+                    <p>To compress a spring some distance \(x\), a force \(F_\mathrm{P}\) must be applied that is directly proportional to \(x\):</p>
+                    <div class="equation-block">$$F_\mathrm{P} = kx$$</div>
+                    <p>Here, \(k\) refers to the <em>spring stiffness constant</em>, and is a measure of the stiffness of the particular spring. The problems you'll be encountering will usually give you what \(k\) is equal to upfront, but some may have you determine the value of \(k\) algebraically.</p>
+                    <p>In addition, springs have <b>elastic potential energy</b> when compressed <em>or</em> stretched. It can be calculated with the following equation:</p>
+                    <div class="equation-block">$$\mathrm{PE}_\mathrm{elastic} = {1 \over 2}kx^2$$</div>
+
+                    <h3 id="energyConservation">Conservation of Energy</h3>
+                    <p>We all know about the Law of Conservation of Energy, which states that energy cannot be created or destroyed, only converted to another form. The majority of the forces you'll be encountering are <b>conservative forces</b>, which keep all the energy exerted inside of the system.</p>
+                    <p>However, there also exists <b>nonconservative forces</b>, which release energy outside of the system. An example of this is <em>friction</em>&mdash;when a box is pushed against a rough surface, some of the energy is released into the surrounding area as heat energy.</p>
+
+                    <h3 id="mechanicalEnergy">Mechanical Energy</h3>
+                    <p>Assuming we are <em>only dealing with conservative forces</em>, <b>mechanical energy</b> is defined as the sum of the kinetic and potential energies in a system at any given moment:</p>
+                    <div class="equation-block">$$E = \mathrm{KE} + \mathrm{PE}$$</div>
+                    <p>You'll usually use this concept to compare energy changes in a system at different points in time:</p>
+                    <div class="equation-block">$$\mathrm{KE}_2 + \mathrm{PE}_2 = \mathrm{KE}_1 + \mathrm{PE}_1$$</div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h3 class="panel-title">Solving example:</h3></div>
+                        <div class="panel-body">
+                            <p class="problem">A rock is dropped from a height of \(h = 3.0\ \mathrm{m}\). Calculate the rock's speed when it has fallen to 1.0 meter above the ground.</p>
+                            <hr>
+                            <p>While this problem seems like it doesn't have enough information, you actually have enough information to solve the problem using the mechanical energy concepts seen above. We know that at the moment of release, the rock's position is \(h_1 = 3.0\ \mathrm{m}\) and it's velocity is \(v_1 = 0\). We want to find \(v_2\) when the rock is at position (\y_2 = 2.0\ \mathrm{m}\). We can set up our conservation equation as such:</p>
+                            <div class="equation-block">\begin{align} \mathrm{KE}_2 + \mathrm{PE}_2 & = \mathrm{KE}_1 + \mathrm{PE}_1 \\ {1 \over 2}mv_2^2 + mgh_2 & = {1 \over 2}mv_1^2 + mgh_1 \end{align}</div>
+                            <p>The \(m\)'s cancel out, allowing us to solve for \(v_2\):</p>
+                            <div class="equation-block">\begin{align} {1 \over 2}v_2^2 + gh_2 & = {1 \over 2}v_1^2 + gh_1 \\ v_2^2 & = 2g(h_1 - h_2) \\ & = 2(9.8\ \mathrm{m/s^2})[(3.0\ \mathrm{m}) - (1.0\ \mathrm{m})] \\ & = 2(9.8\ \mathrm{m/s^2})(2.0\ \mathrm{m}) \approx 39.2\ \mathrm{m^2/s^2} \end{align}</div>
+                            <p>We can then take the square root to get our answer.</p>
+                            <div class="equation-block">\begin{align} v_2 & = \sqrt{39.2}\ \mathrm{m^2/s^2} \approx 6.3\ \mathrm{m/s^2} \end{align}</div>
+                            <p>The rock's speed will be <b>6.3 m/s<sup>2</sup></b> when it reaches a height of 1.0 meter.</p>
+                        </div>
+                    </div>
+                    <p>You might encounter a problem that asks you to deal with springs and conservation of energy at the same time:</p>
+                    <div class="equation-block">\begin{align} \mathrm{KE}_2 + \mathrm{PE}_2 & = \mathrm{KE}_1 + \mathrm{PE}_1 \\ {1 \over 2}mv_2^2 + {1 \over 2}kx_2^2 & = {1 \over 2}mv_1^2 + {1 \over 2}kx_1^2 \end{align}</div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h3 class="panel-title">Example problem:</h3></div>
+                        <div class="panel-body">
+                            <p>A dart of mass 0.100 kilograms is pressed against the spring of a toy dart gun. The spring (\(k = 250\ \mathrm{N/m}\)) is compressed 6.0 centimeters and released. If the dart detaches from the spring when the spring reaches its natural length (\(x = 0\)), what speed does the dart acquire?</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <footer>
+                        <p>This site also uses the following libraries: <a href="http://getbootstrap.com/">Bootstrap</a>, licensed under the <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE">MIT License</a>; <a href="https://www.mathjax.org/">MathJax</a>, licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License</a>; and <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+                    </footer>
+
+                </div> <!--/main -->
+            </div> <!--/row -->
+        </div> <!--/container -->
+
+
+
+        <!-- script references -->
+        <!-- Ajax CDN -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+        <!-- Bootstrap - Latest compiled and minified JavaScript from CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <!-- Custom Javascript -->
+        <script src="js/scripts.js"></script>
+
+        <!-- Google Analytics Tracking Code -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-71814830-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
